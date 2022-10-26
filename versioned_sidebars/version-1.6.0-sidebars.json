@@ -14,7 +14,16 @@
             "items": [
                 "realmmanager",
                 "organizationmanager",
-                "pedavalans"
+                {
+                    "type": "category",
+                    "label": "Pedavalans",
+                    "collapsed": true,
+                    "items": [
+                        "pedavalans/pedavalans",
+                        "pedavalans/polivalans",
+                        "pedavalans/yetkinliktanimlama"
+                    ]
+                }
                
             ]
         }

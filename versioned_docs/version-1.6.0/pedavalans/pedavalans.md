@@ -1,6 +1,6 @@
 ---
 id: pedavalans
-title: Pedavalans
-sidebar_label: Pedavalans
+title: Giris
+sidebar_label: Giris
 ---
 ## document is being prepared
