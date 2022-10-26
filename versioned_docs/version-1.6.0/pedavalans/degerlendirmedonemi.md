@@ -11,3 +11,13 @@ bazlı saklanmasını ve raporlanmasını da sağlayacaktır.
 Değerlendirme Dönemi Tanımlamak için, Ana Sayfada **Değerlendirme Dönemi** menüsüne tıklanır.
 
 ![Değerlendirme Dönemleri Listesi](../images/005.png)
+
+Yeni Değerlendirme Dönemi eklemek için sağ üstteki **Yeni Kayıt** butonu tıklanır.
+
+![Yeni Değerlendirme Dönemi Ekleme](../images/004.png)
+
+Açılan ekranda değerlendirme döneminin tanımını ve hangi yılı kapsayacağı belirtilir.
+
+![Yeni Değerlendirme Dönemi Ekleme](../images/006.png)
+
+Ardından **Kaydet** butonu tıklanarak Değerlendirme Dönemi oluşturulmuş olur. Değerlendirme Dönemini kaydederken Varsayılan seçeneği seçilirse geçerli olan dönem olarak belirlenmiş olur ve veri girişlerinin sonucu bu dönem içerisine kaydedilir.
