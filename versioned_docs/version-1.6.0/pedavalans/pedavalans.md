@@ -1,6 +1,6 @@
 ---
 id: pedavalans
 title: Giris
-sidebar_label: Giris
+sidebar_label: Pedavalans
 ---
-## document is being prepared
+## Peda 360 Polivalans Uygulamasına Hoş Geldiniz! ##
