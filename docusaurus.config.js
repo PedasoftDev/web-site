@@ -44,15 +44,6 @@ module.exports = {
                     type: 'localeDropdown',
                     position: 'right',
                 },
-
-                {
-                    type: 'doc',
-                    docId: 'training/tuval-101',
-                    position: 'left',
-                    label: 'Tutorials',
-                    activeSidebarClassName: 'navbar__link--active',
-                },
-
                 {
                     to: 'blog',
                     label: 'Blog',
@@ -150,7 +141,7 @@ module.exports = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
-                    editUrl: 'https://gitlab.com/aweframework/awe/edit/master/website/',
+                    editUrl: 'https://github.com/PedasoftDev/web-site/',
                     includeCurrentVersion: true,
                     showLastUpdateTime: true,
                     showLastUpdateAuthor: true,
