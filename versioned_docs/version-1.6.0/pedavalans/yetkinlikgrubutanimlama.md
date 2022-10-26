@@ -12,3 +12,7 @@ yetkinlik grubu bulunmalıdır.
 Ana Sayfada **Yetkinlik Grubu Tanımlama** menüsü tıklanır. Açılan ekranda Yeni Kayıt butonu tıklanır.
 
 ![Yetkinlik Grupları Listesi](../images/007.png)
+
+Yeni Yetkinlik Grubu ekleme sırasında Yetkinlik Grubu'nın tanımı yazılır ve bu yetkinlik grubuna bağlı olacak yetkinliklerin ilişkili yetkinlik değerlendirme düzeyi listeden seçilirerek Kaydet tuşu tıklanır.
+
+![Yetkinlik Grupları Listesi](../images/008.png)
