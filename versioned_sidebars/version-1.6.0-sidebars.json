@@ -19,8 +19,8 @@
                     "label": "Pedavalans",
                     "collapsed": true,
                     "items": [
-                        "pedavalans/pedavalans",
                         "pedavalans/polivalans",
+                        "pedavalans/pedavalans",
                         "pedavalans/yetkinliktanimlama",
                         "pedavalans/yetkinlikduzeyitanimlama"
                     ]
