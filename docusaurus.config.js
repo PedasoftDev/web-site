@@ -141,7 +141,7 @@ module.exports = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
-                    editUrl: 'https://github.com/PedasoftDev/web-site/',
+                    editUrl: 'https://github.com/PedasoftDev/web-site/blob/main/',
                     includeCurrentVersion: true,
                     showLastUpdateTime: true,
                     showLastUpdateAuthor: true,
