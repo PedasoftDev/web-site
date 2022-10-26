@@ -19,7 +19,6 @@
                     "label": "Pedavalans",
                     "collapsed": true,
                     "items": [
-                        "pedavalans/pedavalans",
                         "pedavalans/polivalans",
                         "pedavalans/yetkinliktanimlama",
                         "pedavalans/yetkinlikduzeyitanimlama"
