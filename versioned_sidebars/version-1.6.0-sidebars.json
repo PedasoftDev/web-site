@@ -23,12 +23,12 @@
                         "pedavalans/pedavalans",
                         "pedavalans/yetkinliktanimlama",
                         "pedavalans/yetkinlikduzeyitanimlama"
-                        "pedavalans/degerlendirmedonemi"
-                        "pedavalans/yetkinlikgrubutanimlama"
-                        "pedavalans/polivalanstablosu"
-                        "pedavalans/yetkinlikhedef"
-                        "pedavalans/yetkinlikgerceklesme"
-                        "pedavalans/calisanyetkinlik"
+                        "pedavalans/degerlendirmedonemi",
+                        "pedavalans/yetkinlikgrubutanimlama",
+                        "pedavalans/polivalanstablosu",
+                        "pedavalans/yetkinlikhedef",
+                        "pedavalans/yetkinlikgerceklesme",
+                        "pedavalans/calisanyetkinlik",
                         
                     ]
                 }
