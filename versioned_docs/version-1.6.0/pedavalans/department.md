@@ -1,7 +1,7 @@
 ---
-id: title
-title: Title Tanımlama
-sidebar_label: Title Tanımlama
+id: department
+title: Departmen Tanımlama
+sidebar_label: Departman Tanımlama
 ---
 
 # Department Tanımlama
