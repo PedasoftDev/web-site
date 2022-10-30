@@ -13,3 +13,10 @@ sistem içinde bulunmalıdır.
 Pozisyon tanımı gerçekleştirmek için **Organization Manager** uygulamasında **Positions** menüsü tıklanır.
 
 ![Pozisyon Tanımlama](../images/e07.png)
+
+Sağ üstteki **New Position** butonu tıklanarak Yeni Pozisyon tanımlama sayfası görüntülenir. Bu sayfada pozisyonun sıra numarası/kodu ve pozisyon tanımı girilir.
+
+
+![Pozisyon Tanımlama](../images/e08.png)
+
+**Create Pozition** butonu tıklanarak pozisyon kaydedilmiş olur.
