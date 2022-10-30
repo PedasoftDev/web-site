@@ -16,4 +16,7 @@ Procetra, iş süreçlerinde yer alan olay kayıtlarını (event log) analiz ede
 
 2. Yeni Proje butonuna tıklandığında açılan pop-up'da **Proje Adı** yazılarak OK tuşu tıklanır. Bu şekilde yeni bir proje kaydedilmiş olur. Procetra ile süreç analizi yapmadan önce bir proje oluşturulmalıdır. 
 
-![Proje Kayıt](../images/p02.png)
+![Proje Kayıt](../images/p04.png)
+
+3.Proje kaydedildikten sonra süreç verilerinin içeri yükleneceği **Process Overview** sayfası otomatik olarak görüntülenecektir. Burada süreç verileri hangi metotla içeri yüklenecekse o yöntem seçilir. Örneğin süreç verilerinin .csv formatında masasüstünde bulunduğu varsayılsın. Bu durumda **Upload Data** butonu tıklanır.
+
