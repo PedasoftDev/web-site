@@ -19,4 +19,24 @@ Procetra, iş süreçlerinde yer alan olay kayıtlarını (event log) analiz ede
 ![Proje Kayıt](../images/p04.png)
 
 3.Proje kaydedildikten sonra süreç verilerinin içeri yükleneceği **Process Overview** sayfası otomatik olarak görüntülenecektir. Burada süreç verileri hangi metotla içeri yüklenecekse o yöntem seçilir. Örneğin süreç verilerinin .csv formatında masasüstünde bulunduğu varsayılsın. Bu durumda **Upload Data** butonu tıklanır.
+![Upload Data](../images/p05.png)
 
+**Upload Data** butonu tıklanarak süreç olay kayıtlarının içeri yükleneceği ekran açılır. Burada **Drop File Here** yazan kutucuğa .csv dosyası sürükle bırak ile getirilebilir ya da **Browse Files** linki tıklanarak dosyanın masaüstünden seçilip yüklenmesi sağlanır.
+
+![Upload Data](../images/p06.png)
+
+Veriler içeri yüklendikten sonra süreç madenciliği kuralları gereği yüklenen .csv dosyasındaki verilerin Procetra'nın istediği alanlarla eşleştirilmiş olması gerekmektedir. Bu alanlar sırası ile;
+
+* Case Id ( Süreç Id)
+* Activity ( Faaliyet adı)
+* Resource ( Kaynak-Zorunlu Değil)
+* Start Timestamp ( Faaliyetin Başlangıç Tarihi)
+* End Timestamp (Faaliyetin Bitiş Tarihi)
+
+Veriler yüklendikten sonra ilgili sutunların üst kısmındaki kutucuklardan csv dosyasındaki başlığın **Procetra**'daki hangi alana denk geldiği belirtilir.
+
+![Upload Data](../images/p07.png)
+
+Tüm adımlar doğru gerçekleştirildiği takdirde herhangi bir hata bulunmuyorsa **Start Upload** butonu tıklanarak veriler **Procetra** veritabanına aktarılır ve analizler gerçekleştirilir.
+
+![Upload Data](../images/p08.png)
