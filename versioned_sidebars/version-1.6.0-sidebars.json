@@ -13,7 +13,19 @@
             "collapsed": true,
             "items": [
                 "realmmanager",
-                "organizationmanager",
+                {
+                    "type": "category",
+                    "label": "Organization Manager",
+                    "collapsed": true,
+                    "items": [
+                        "pedavalans/employee",
+                        "pedavalans/department",
+                        "pedavalans/title",
+                        "pedavalans/position"
+                        
+                    ]
+                },
+                
                 {
                     "type": "category",
                     "label": "Pedavalans",
@@ -29,6 +41,16 @@
                         "pedavalans/yetkinlikhedef",
                         "pedavalans/yetkinlikgerceklesme",
                         "pedavalans/calisanyetkinlik"
+                        
+                    ]
+                },
+                {
+                    "type": "category",
+                    "label": "Procetra",
+                    "collapsed": true,
+                    "items": [
+                        "procetra/procetra",
+                       
                         
                     ]
                 }
