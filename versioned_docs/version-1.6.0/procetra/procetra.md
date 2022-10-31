@@ -40,3 +40,26 @@ Veriler yüklendikten sonra ilgili sutunların üst kısmındaki kutucuklardan c
 Tüm adımlar doğru gerçekleştirildiği takdirde herhangi bir hata bulunmuyorsa **Start Upload** butonu tıklanarak veriler **Procetra** veritabanına aktarılır ve analizler gerçekleştirilir.
 
 ![Upload Data](../images/p08.png)
+
+## PROCESS OVERVIEW
+
+**Procetra** ile süreç verilerinizi içeri aktardıktan sonra proje ana sayfasında yer alan kutucuklardan **Process Overview** kutucuğuna tıklayarak süreçlerinizle ilgili bir bakışta kritik analizlere ulaşabilirsiniz.
+
+### Process Metrics
+
+Procetra ile süreçlerinize ait ortalama günlük gerçekleşen süreç sayısı, günde gerçekleşen ortalama faaliyet sayısı ve süreçlerin ortalama tamamlanma sürelerini görebilirsiniz.
+
+![Process Metrics](../images/p09.png)
+
+### Happy Paths
+
+Procetra ile Happy Path analizleri gerçekleştirebilirsiniz. **Happy Path** bir sürecin en verimli ve en az hata üreten akışını belirten bir kavramdır. Procetra mevcut süreç kayıtlarınızı analiz ederek hangi akışın **Happy Path** olduğunu bulur ve analiz eder.
+
+![Upload Data](../images/p10.png)
+![Upload Data](../images/p11.png)
+
+### Frekans Dağılımı
+
+Procetra süreç kayıtlarınızı analiz ederek hangi faaliyetlerin ne sıklıkla gerçekleştiğini ve bunların sürecin genelinin ne kadarını oluşturduğunu oransal olarak gösterir.
+
+![Upload Data](../images/p12.png)
