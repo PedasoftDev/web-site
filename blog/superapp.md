@@ -3,7 +3,7 @@ title: SuperAPP nedir? İş Uygulamaları Dünyasında SuperAPP Yaklaşımı
 author: pedasoft
 author_title: Mehmet Onur Beşer
 author_url: https://www.linkedin.com/in/onurbeser/
-author_image_url: [https://avatars.githubusercontent.com/u/5240006?v=4](https://media-exp1.licdn.com/dms/image/C4D03AQFfDpqqLL8yrA/profile-displayphoto-shrink_800_800/0/1663150925435?e=1672876800&v=beta&t=RCyKoAsnWWHeixLVszqqCTqRl6WBwXpEy__oUr_VxEU)
+author_image_url: (https://media-exp1.licdn.com/dms/image/C4D03AQFfDpqqLL8yrA/profile-displayphoto-shrink_800_800/0/1663150925435?e=1672876800&v=beta&t=RCyKoAsnWWHeixLVszqqCTqRl6WBwXpEy__oUr_VxEU)
 tags: [superapp]
 ---
 
