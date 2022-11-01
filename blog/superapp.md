@@ -7,6 +7,7 @@ author_image_url: https://media-exp1.licdn.com/dms/image/C4D03AQFfDpqqLL8yrA/pro
 tags: [superapp]
 ---
 
+
 # SuperAPP nedir? İş Uygulamaları Dünyasında SuperAPP Yaklaşımı
 
 SuperApp kavramına özellikle pandemiden sonra daha çok aşina olduk diyebilirim. Zira dijitalleşmeyi ve tüm hizmetlere uzaktan, olabildiğince hızlı erişme ihtiyacını tetikleyen bu sürecin içinden geçiyoruz.
