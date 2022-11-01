@@ -23,7 +23,7 @@ Yani SuperApp'ler sıradan bir mobil uygulama ya da web sitesinden çok daha faz
 
 Hepimizin kullandığı **Getir** ve **Trendyol** gibi uygulamalar SuperApp konseptine en yakından verebileceğimiz uygulamalar olarak öne çıkmakta. Bu uygulamalar ilk başta bir konu özelinde hayatımıza girdikten sonra sonrasında farklı hizmetleri de bünyesinde sağlayarak aslında kullanıcıların olabildiğince tek bir platform üzerinde hizmet almasını sağladı.
 
-[Superapp](../blogimages/app02.jpeg)
+![Superapp](../blogimages/app02.jpeg)
 
 **Super App konsepti iş dünyasına, iş uygulamaları alanına nasıl uyarlanabilir peki?**
 
