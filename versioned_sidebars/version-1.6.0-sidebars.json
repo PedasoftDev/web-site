@@ -34,12 +34,12 @@
                         "pedavalans/polivalans",
                         "pedavalans/pedavalans",
                         "pedavalans/yetkinliktanimlama",
-                        "pedavalans/yetkinlikduzeyitanimlama"
-                        "pedavalans/degerlendirmedonemi"
-                        "pedavalans/yetkinlikgrubutanimlama"
-                        "pedavalans/polivalanstablosu"
-                        "pedavalans/yetkinlikhedef"
-                        "pedavalans/yetkinlikgerceklesme"
+                        "pedavalans/yetkinlikduzeyitanimlama",
+                        "pedavalans/degerlendirmedonemi",
+                        "pedavalans/yetkinlikgrubutanimlama",
+                        "pedavalans/polivalanstablosu",
+                        "pedavalans/yetkinlikhedef",
+                        "pedavalans/yetkinlikgerceklesme",
                         "pedavalans/calisanyetkinlik"
                         
                     ]
@@ -49,7 +49,7 @@
                     "label": "Procetra",
                     "collapsed": true,
                     "items": [
-                        "procetra/procetra",
+                        "procetra/procetra"
                        
                         
                     ]
