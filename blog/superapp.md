@@ -12,7 +12,7 @@ tags: [superapp]
 SuperApp kavramına özellikle pandemiden sonra daha çok aşina olduk diyebilirim. Zira dijitalleşmeyi ve tüm hizmetlere uzaktan, olabildiğince hızlı erişme ihtiyacını tetikleyen bu sürecin içinden geçiyoruz.
 Peki SuperApp nedir kısaca? Farklı uzmanlık konularına ait uygulamaların kullanıcılar tarafından ihtiyaç olduğunda ulaşılmasını sağlayan platformlar olarak niteleyebiliriz. Bu konuda en güzel benzetme sanırım "İsviçre Çakısı" olacaktır. Yani o an neye ihtiyacınız varsa çok kısa sürede ulaşıp işinizi görebiliyorsunuz.
 
-![Superapp](./images/app01.jpeg)
+![Superapp](../blogimages/app01.jpeg)
 
 **Gartner** SuperApp'i şu şekilde ifade etmiş:
 
@@ -21,3 +21,6 @@ Peki SuperApp nedir kısaca? Farklı uzmanlık konularına ait uygulamaların ku
 Yani SuperApp'ler sıradan bir mobil uygulama ya da web sitesinden çok daha fazlası. Kendi içinde mini-app'ler barındırarak kullanıcıların ihtiyacı oldugunda mini-app'leri aktive ederek kullanabilmelerine ve ihtiyaçlarını hemen gidermelerini sağlıyor.
 
 Hepimizin kullandığı **Getir** ve **Trendyol** gibi uygulamalar SuperApp konseptine en yakından verebileceğimiz uygulamalar olarak öne çıkmakta. Bu uygulamalar ilk başta bir konu özelinde hayatımıza girdikten sonra sonrasında farklı hizmetleri de bünyesinde sağlayarak aslında kullanıcıların olabildiğince tek bir platform üzerinde hizmet almasını sağladı.
+
+[Superapp](../blogimages/app02.jpeg)
+
