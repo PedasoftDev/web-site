@@ -24,3 +24,13 @@ Hepimizin kullandığı **Getir** ve **Trendyol** gibi uygulamalar SuperApp kons
 
 [Superapp](../blogimages/app02.jpeg)
 
+**Super App konsepti iş dünyasına, iş uygulamaları alanına nasıl uyarlanabilir peki?**
+
+Farklı uzmanlıklar ve disiplinler için farklı iş uygulamaları hepimizin malumu... Aslında öyle olmak da zorunda. Zira bir konuda uzman olan bir iş uygulamasının ( ör: Muhasebe ), başka bir konuda (ör: Bakım Yönetimi) uzman olmasını beklemek çok da doğru değil. Ancak bu denli kompleks ihtiyaç ve beklenti gerektirmeyen fakat işletmelerde yoğunlukla kullanılan süreçler için SuperAPP benzeri platformlarda kullanıcıların hızlıca erişim sağlayabileceği mini-app'ler söz konusu olabilir. Kullanıcılar -genellikle- bulut mimarisi üzerinde çalışan bu SuperAPP'ler üzerinde o an ihtiyaç duydukları işlemleri gerçekleştirebilmeli; bunlar için farklı arayüzlere erişim sağlamadan tek bir platformda işini görebilmelidir.
+
+İş uygulamaları alanında gelecekte çok daha fazla ses getireceğini düşündüğüm Business-SuperAPP konsepti sayesinde;
+
+- Çok büyük yatırımlar ve proje maliyetleri gerektirmeden pek çok süreç dijitalleştirilebilecektir.
+- SAAS ve PAAS mimarileri sayesinde yazılım geliştirme ve devreye alma süreleri oldukça kısalacaktır.
+- İş verimliliği artacak, daha verimli ve efektif iş süreçleri dizayn edilebilecektir.
+
