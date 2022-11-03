@@ -1,11 +1,12 @@
-import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
 import Translate from '@docusaurus/Translate';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
+import clsx from 'clsx';
+import React from 'react';
+
+import styles from './styles.module.css';
+
 
 const infos = [
   {
@@ -215,38 +216,34 @@ function Home() {
       <div className={styles.hero}>
         <div className={styles.heroInner}>
           <h1 className={styles.heroProjectTagline}>
-
-
             <img
               alt="Awe logo"
               className={styles.heroLogo}
               src={useBaseUrl('img/undraw_freelancer_re_irh4.svg')}
             />
-
-
-
             <span className={styles.heroTitleTextHtml}>
               <Translate id="homepage.hero.title" description="Home page hero title, can contain simple html tags"
                 values={{
-                  business: (<b><Translate>isletmeler</Translate></b>),
+                  business: (<b><Translate>işletmeler</Translate></b>),
                   appstore: (<b><Translate>appstore</Translate></b>),
                   apps: (<b><Translate>apps</Translate></b>),
-                  bussiness: (<b><Translate>bussiness</Translate></b>)
+                  bussiness: (<b><Translate>bussiness</Translate></b>),
+                  smart: (<b><Translate>Akıllı</Translate></b>)
                 }}>
-                {`Akilli {business}`}
+                {`Akıllı {business}`}
               </Translate>
               <br />
               <Translate id="homepage.hero.title" description="Home page hero title, can contain simple html tags"
                 values={{
                   superapp: (<b><Translate>superapp</Translate></b>),
-                  appstore: (<b><Translate>cozumler</Translate></b>),
+                  appstore: (<b><Translate>çözümler</Translate></b>),
                   apps: (<b><Translate>apps</Translate></b>),
                   bussiness: (<b><Translate>bussiness</Translate></b>)
                 }}>
-                {` Entegre {appstore}`}
+                {`Entegre {appstore}`}
               </Translate>
               <br />
-              <Translate id="homepage.hero.title" description="Home page hero title, can contain simple html tags"
+              {/* <Translate id="homepage.hero.title" description="Home page hero title, can contain simple html tags"
                 values={{
                   superapp: (<b><Translate>superapp</Translate></b>),
                   appstore: (<b><Translate>appstore</Translate></b>),
@@ -254,53 +251,23 @@ function Home() {
                   bussiness: (<b><Translate>bussiness</Translate></b>)
                 }}>
                 {`Deploy {apps}`}
-              </Translate>
+              </Translate> */}
 
             </span>
           </h1>
 
-          <div style={{ color: 'rgba(255,255,255,0.5)' }} className={styles.indexCtas}>
+          <div style={{ color: 'rgba(255,255,255,0.1)' }} className={styles.indexCtas}>
             <ul>
               <li>
-                Superapps can provide a more engaging and powerful experience for users.
+                Süper uygulamalar, kullanıcılar için daha ilgi çekici ve güçlü bir deneyim sağlayabilir.
               </li>
               <li>
-                They are built as platforms used for personalized app experiences through mini-apps.
+                Mini uygulamalar aracılığıyla kişiselleştirilmiş uygulama deneyimleri için kullanılan platformlar olarak oluşturulmuştur.
               </li>
               <li>
-                Industries are adopting superapps to gain a competitive advantage.
+                Endüstriler, rekabet avantajı elde etmek için süper uygulamaları benimsiyor.
               </li>
             </ul>
-
-          </div>
-          <div className={styles.indexCtas}>
-            <div style={{width: 'auto'}} className="container">
-              <div className="row">
-                <div className={clsx('col col--4')}>
-                  <Link className={styles.singupButton} to={useBaseUrl('docs/')}>
-                    <img className={styles['singupButton-img']} src={"https://www-static.cdn.prismic.io/www-static/7b66f955-63dd-41f5-a403-e6727b24d4ea_google-logo.svg"}></img>
-                    <span className={styles['singupButton-span']}>
-                      <Translate>Sign up with Google</Translate>
-                    </span>
-                  </Link>
-                </div>
-                <div className={clsx('col col--4')}>
-                  <Link className={styles.singupButton} to={useBaseUrl('docs/')}>
-                    <img className={styles['singupButton-img']} src={"https://www-static.cdn.prismic.io/www-static/0a3e37e0-1706-41d5-98d1-854585205a5e_github-logo.svg"}></img>
-                    <span className={styles['singupButton-span']}>
-                      <Translate>Sign up with Github</Translate>
-                    </span>
-                  </Link>
-                </div>
-                <div className={clsx('col col--4')}>
-                  <Link className={styles.singupButton1} to={useBaseUrl('docs/')}>
-                    <span className={styles['singupButton-span']}>
-                      <Translate>Sign up with email</Translate>
-                    </span>
-                  </Link>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

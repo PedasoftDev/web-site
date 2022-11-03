@@ -100,8 +100,8 @@ html[data-theme='dark'] .header-gitlab-link:before {
 .navbar__title {
     font-family: Axiforma, sans-serif;
     font-size: 20px;
-    color: #002856;
-    font-weight: 700;
+    color: #ffffff;
+    font-weight: 500;
 }
 
 .navbar__link {
@@ -110,7 +110,7 @@ html[data-theme='dark'] .header-gitlab-link:before {
     background: none;
     border: none;
     border-radius: 10px;
-    color: rgb(77, 91, 124);
+    color: rgb(120, 130, 152);
     cursor: pointer;
     display: flex;
     font-size: 16px;
@@ -124,6 +124,22 @@ html[data-theme='dark'] .header-gitlab-link:before {
 .navbar__link:hover {
     background: rgb(227, 232, 244);
     color: rgb(18, 83, 250);
+}
+
+@media screen and (max-width: 996px) {
+    .navbar__link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 997px) {
+    .navbar__items {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar {
+        min-height: 160px;
+    }
 }
 
 .DocSearch-Button {

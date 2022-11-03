@@ -1,12 +1,12 @@
 module.exports = {
     title: 'peda360',
     tagline: 'Dijital Dönüşüm Yol Arkadaşınız',
-    url: 'http://bpmgenesis.com',
+    url: 'http://peda360.com/',
     baseUrl: '/',
     onBrokenLinks: 'throw',
-    favicon: 'icon/tuval.ico',
-    organizationName: 'tuvalframework',
-    projectName: 'RealmOcean',
+    favicon: 'icon/peda.ico',
+    organizationName: 'Pedasoft',
+    projectName: 'peda360',
     themeConfig: {
         docs: {
             sidebar: {
@@ -14,27 +14,27 @@ module.exports = {
             },
         },
         navbar: {
-            title: 'peda360',
+            title: 'Peda360',
             logo: {
                 alt: 'Tuval Framework Logo',
-                src: 'img/tuval-logo.png',
+                src: 'img/peda360-logo.png',
                 // srcDark: 'img/logo white.svg'
             },
             hideOnScroll: true,
             items: [{
                     to: '/',
                     position: 'left',
-                    label: 'Home',
+                    label: 'Ana Sayfa',
                 },
                 {
                     to: '/appstore',
                     position: 'left',
-                    label: 'Applications',
+                    label: 'Çözümlerimiz',
                 },
                 {
                     type: 'docsVersion',
                     position: 'left',
-                    label: 'Documentation',
+                    label: 'Dökümantasyon',
                 },
                 /* {
                     type: 'docsVersionDropdown',
@@ -44,25 +44,25 @@ module.exports = {
                     type: 'localeDropdown',
                     position: 'right',
                 },
+                // {
+                //     to: 'blog',
+                //     label: 'Blog',
+                //     position: 'left'
+                // },
                 {
-                    to: 'blog',
-                    label: 'Blog',
-                    position: 'left'
-                },
-                {
-                    href: 'https://app.realmocean.com',
-                    html: '<b>Log In</b>',
+                    href: 'http://www.pedasoft.com.tr/iletisim',
+                    html: '<b>Üye Ol</b>',
                     position: 'right',
 
-                    target: '_self',
+                    target: '_new',
                     'aria-label': 'GitHub repository'
                 },
                 {
                     href: 'http://apps.peda360.com',
-                    html: 'Get Started',
+                    html: 'Kullanmaya Başlayın',
                     position: 'right',
                     className: 'get-started-button',
-                    target: '_self',
+                    target: '_new',
                     'aria-label': 'GitHub repository'
                 }
                 /*   {
@@ -85,8 +85,8 @@ module.exports = {
                 {
                     title: 'Community',
                     items: [{
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/tuvalframework',
+                            label: 'LinkedIn',
+                            href: 'https://www.linkedin.com/company/pedasoft/',
                         },
 
                     ],
@@ -95,11 +95,11 @@ module.exports = {
                     title: 'More',
                     items: [{
                         label: 'Github repository',
-                        href: 'https://github.com/tuvalframework/framework',
+                        href: 'https://github.com/PedasoftDev',
                     }],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Tuvalsoft`,
+            copyright: `Copyright © ${new Date().getFullYear()} Pedasoft`,
         },
         /*   algolia: {
               appId: '6Q4OIC1WEX',
@@ -117,15 +117,15 @@ module.exports = {
           }, */
     },
     i18n: {
-        defaultLocale: 'en',
-        locales: ['en', 'tr'],
+        defaultLocale: 'tr',
+        locales: ['tr', 'en' ],
         localeConfigs: {
-            en: {
-                label: 'English',
-                direction: 'ltr',
-            },
             es: {
                 label: 'Turkish',
+                direction: 'ltr',
+            },
+            en: {
+                label: 'English',
                 direction: 'ltr',
             },
         }

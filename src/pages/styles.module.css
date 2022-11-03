@@ -3,7 +3,7 @@
  * and scoped locally.
  */
 
-.heroBanner {
+ .heroBanner {
     padding: 4rem 0;
     text-align: center;
     position: relative;
@@ -66,12 +66,15 @@
         transform: scale(0.1) rotate(30deg);
         transform-origin: center bottom;
     }
+
     50% {
         transform: rotate(-10deg);
     }
+
     70% {
         transform: rotate(3deg);
     }
+
     to {
         opacity: 1;
         transform: scale(1);
@@ -197,30 +200,37 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+
     .heroInner {
         padding: 0;
     }
+
     .heroProjectTagline {
         color: #fff;
         font-size: 30px;
         text-align: center;
     }
+
     .heroLogo {
         display: block;
         float: none;
         margin: 0 auto;
         max-width: 100%
     }
+
     .indexCtas {
         justify-content: center;
     }
+
     .indexCtasGitHubButton {
         display: none;
     }
+
     .singupButton {
         width: 100%;
         margin-top: 10px;
     }
+
     .singupButton1 {
         width: 100%;
         margin-top: 10px;
@@ -266,3 +276,152 @@
     padding: 12px 24px;
     width: 234px;
 }
+
+/* AppStore Card View Start */
+
+.appStoreCardView {
+    position: relative;
+    width: 320px;
+    height: 450px;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 50px;
+}
+
+.appStoreCardView:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(59, 127, 169, 0.605);
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+}
+
+.appStoreCardView:hover:before {
+    clip-path: circle(300px at 80% -20%);
+}
+
+.appStoreCardView:after {
+    content: 'Peda360';
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 3em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(18, 129, 198, 0.787)
+}
+
+.appStoreCardImage {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10000;
+    width: 100%;
+    height: 220px;
+    transition: 0.5s;
+}
+
+.appStoreCardView:hover .appStoreCardImage {
+    top: 0%;
+    transform: translateY(0%);
+}
+
+.appStoreCardImage img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 270px;
+    opacity: .8;
+    border-radius: 10px;
+}
+
+.appStoreCardView:hover img{
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.appStoreCardContentBox {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+}
+
+.appStoreCardView:hover .appStoreCardContentBox {
+    height: 210px;
+}
+
+.appStoreCardView h2 {
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 0;
+}
+
+.appStoreCardContentBoxParagraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.appStoreCardView:hover .appStoreCardContentBoxParagraph {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+
+.appStoreCardContentBoxParagraph h3 {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.appStoreCardContentBox a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00a688;
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.5s;
+    outline: none;
+    touch-action: manipulation;
+}
+
+.appStoreCardView:hover .appStoreCardContentBox a {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.05s;
+}
+
+.appStoreCardContentBox a:hover {
+    background: rgb(227, 232, 244);
+    color: rgb(18, 83, 250);
+}
+
+/* AppStore Card View End */
