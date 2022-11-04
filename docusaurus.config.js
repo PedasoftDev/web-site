@@ -15,6 +15,7 @@ module.exports = {
         },
         navbar: {
             title: 'Peda360',
+            style: "dark",
             logo: {
                 alt: 'Tuval Framework Logo',
                 src: 'img/peda360-logo.png',
