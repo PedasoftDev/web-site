@@ -93,6 +93,10 @@ html[data-theme='dark'] .header-gitlab-link:before {
     justify-content: center;
 }
 
+.navbar__logo {
+    height: 3rem;
+}
+
 .navbar__inner {
     width: 70%;
 }
@@ -155,8 +159,8 @@ html[data-theme='dark'] .header-gitlab-link:before {
 
 .get-started-button {
     transition: all 0.3s ease 0s;
-    background: #00a688;
-    border-color: #00a688;
+    background: rgb(18, 83, 250);
+    border-color: rgb(18, 83, 250);
     color: #fff;
     padding: 10px 20px;
     font-size: max(1rem, 16px);

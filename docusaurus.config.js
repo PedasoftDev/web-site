@@ -17,7 +17,7 @@ module.exports = {
             title: 'Peda360',
             style: "dark",
             logo: {
-                alt: 'Tuval Framework Logo',
+                alt: 'Peda360',
                 src: 'img/peda360-logo.png',
                 // srcDark: 'img/logo white.svg'
             },
@@ -51,7 +51,7 @@ module.exports = {
                 //     position: 'left'
                 // },
                 {
-                    href: 'http://www.pedasoft.com.tr/iletisim',
+                    href: 'https://www.pedasoft.com.tr/peda360iletisim',
                     html: '<b>Üye Ol</b>',
                     position: 'right',
 
@@ -93,14 +93,14 @@ module.exports = {
                     ],
                 },
                 {
-                    title: 'More',
+                    title: 'Website',
                     items: [{
-                        label: 'Github repository',
-                        href: 'https://github.com/PedasoftDev',
+                        label: 'Pedasoft',
+                        href: 'https://pedasoft.com.tr',
                     }],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Pedasoft`,
+            copyright: `Peda360 bir Pedasoft markasıdır`,
         },
         /*   algolia: {
               appId: '6Q4OIC1WEX',

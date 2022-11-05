@@ -105,6 +105,11 @@
     margin-top: 24px;
 }
 
+.indexCtasListView {
+    list-style: none;
+    color: #0d232fd8;
+}
+
 .indexCtasGetStartedButton {
     border: 2px solid var(--ifm-color-primary);
     display: inline-block;
@@ -397,7 +402,7 @@
 .appStoreCardContentBox a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #00a688;
+    background-color: rgb(18, 83, 250);
     color: #fff;
     box-sizing: border-box;
     box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
