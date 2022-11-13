@@ -3,6 +3,8 @@
  * and scoped locally.
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
  .heroBanner {
     padding: 4rem 0;
     text-align: center;
@@ -107,7 +109,9 @@
 
 .indexCtasListView {
     list-style: none;
-    color: #0d232fd8;
+    color: #07161f;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
 }
 
 .indexCtasGetStartedButton {
@@ -301,7 +305,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(59, 127, 169, 0.605);
+    background: rgba(18, 83, 250, .4);
     clip-path: circle(150px at 80% 20%);
     transition: 0.5s ease-in-out;
 }
@@ -311,14 +315,13 @@
 }
 
 .appStoreCardView:after {
-    content: 'Peda360';
     position: absolute;
     top: 10%;
     left: 5%;
     font-size: 3em;
     font-weight: 800;
     font-style: italic;
-    color: rgba(18, 129, 198, 0.787)
+    color: rgb(18, 83, 250)
 }
 
 .appStoreCardImage {

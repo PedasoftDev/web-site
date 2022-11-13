@@ -1,6 +1,5 @@
 import Layout from '@theme/Layout';
 import React from 'react';
-
 import AppStoreCard from './appstorecard';
 
 export default function AppStore() {
@@ -8,6 +7,8 @@ export default function AppStore() {
     <Layout title="Hello" description="Hello React Page">
       <div style={{
         display: "flex",
+        alignItems: "center",
+        justifyContent: "center"
       }}>
         <AppStoreCard
           title={"Pedavalans"}
