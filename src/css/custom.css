@@ -89,7 +89,7 @@ html[data-theme='dark'] .header-gitlab-link:before {
 
 .navbar {
     box-shadow: 0 4px 8px rgb(13 35 47 / 10%);
-    min-height: 65px;
+    min-height: 70px;
     justify-content: center;
 }
 
@@ -104,7 +104,7 @@ html[data-theme='dark'] .header-gitlab-link:before {
 .navbar__title {
     font-family: Axiforma, sans-serif;
     font-size: 20px;
-    color: #ffffff;
+    color: #1253FA;
     font-weight: 500;
 }
 
@@ -142,7 +142,7 @@ html[data-theme='dark'] .header-gitlab-link:before {
         flex-direction: column;
     }
     .navbar {
-        min-height: 160px;
+        min-height: 180px;
     }
 }
 

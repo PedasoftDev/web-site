@@ -127,15 +127,11 @@ function Home() {
           </h1>
 
           <div style={{ color: 'rgba(255,255,255,0.1)' }} className={styles.indexCtas}>
-            <ul className={styles.indexCtasListView}>
-              <li>
+            <div className={styles.indexCtasView}>
               Pedasoft olarak kurumsal süreç yönetimi ve iş uygulamaları alanındaki deneyimlerimizi katma değere dönüştürmek adına Peda 360 Platformu’nu sizlere sunuyoruz.
-              </li>
               <br />
-              <li>
               Peda 360’da her sektörde ve büyüklükte firmanın kendi süreçlerine kolaylıkla entegre edebileceği; bulut mimarisinin gücünü yansıtan; sizlere çeviklik ve esneklik sağlayacak iş uygulamalarına erişebileceksiniz.
-              </li>
-            </ul>
+            </div>
           </div>
         </div>
       </div>

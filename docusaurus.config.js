@@ -15,7 +15,6 @@ module.exports = {
         },
         navbar: {
             title: 'Peda360',
-            style: "dark",
             logo: {
                 alt: 'Peda360',
                 src: 'img/peda360-logo.png',
@@ -45,11 +44,11 @@ module.exports = {
                     type: 'localeDropdown',
                     position: 'right',
                 },
-                // {
-                //     to: 'blog',
-                //     label: 'Blog',
-                //     position: 'left'
-                // },
+                {
+                    to: 'blog',
+                    label: 'Blog',
+                    position: 'left'
+                },
                 {
                     href: 'https://www.pedasoft.com.tr/peda360iletisim',
                     html: '<b>Üye Ol</b>',
@@ -75,7 +74,7 @@ module.exports = {
             ],
         },
         footer: {
-            style: 'dark',
+            style: "light",
             links: [{
                     title: 'Docs',
                     items: [{
@@ -136,7 +135,7 @@ module.exports = {
             '@docusaurus/preset-classic',
             {
                 gtag: {
-                    trackingID: 'G-0TB89S1HZ8',
+                    trackingID: 'G-KTRN59595W',
                     anonymizeIP: true,
                 },
                 docs: {

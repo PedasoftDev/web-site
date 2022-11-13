@@ -1,6 +1,5 @@
 import Layout from '@theme/Layout';
 import React from 'react';
-
 import AppStoreCard from './appstorecard';
 
 export default function AppStore() {
@@ -8,6 +7,8 @@ export default function AppStore() {
     <Layout title="Hello" description="Hello React Page">
       <div style={{
         display: "flex",
+        alignItems: "center",
+        justifyContent: "center"
       }}>
         <AppStoreCard
           title={"Pedavalans"}
@@ -19,6 +20,12 @@ export default function AppStore() {
           title={"Procetra"}
           image={"https://pedabilisim.com/wp-content/uploads/2021/07/1-j3dTgXjyaYPo9XkM6UMZ3g-600x366.png"}
           paragraph={"İş süreçlerinde yer alan olay kayıtlarını analiz ederek süreçlerinizi inceleyin"}
+          link={"docs/procetra/"}
+        />
+        <AppStoreCard
+          title={"KPI Library"}
+          image={"https://cdn.simplekpi.com/images/Resources/what-is-a-kpi.webp"}
+          paragraph={"KPI Library"}
           link={"docs/procetra/"}
         />
       </div>
