@@ -22,6 +22,12 @@ export default function AppStore() {
           paragraph={"İş süreçlerinde yer alan olay kayıtlarını analiz ederek süreçlerinizi inceleyin"}
           link={"docs/procetra/"}
         />
+        <AppStoreCard
+          title={"KPI Library"}
+          image={"https://cdn.simplekpi.com/images/Resources/what-is-a-kpi.webp"}
+          paragraph={"KPI Library"}
+          link={"docs/procetra/"}
+        />
       </div>
 
     </Layout>

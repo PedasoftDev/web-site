@@ -107,10 +107,9 @@
     margin-top: 24px;
 }
 
-.indexCtasListView {
-    list-style: none;
+.indexCtasView {
     color: #07161f;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
 
@@ -292,7 +291,7 @@
     position: relative;
     width: 320px;
     height: 450px;
-    background: #232323;
+    background: rgba(171, 171, 171, .1);
     border-radius: 20px;
     overflow: hidden;
     margin: 50px;
