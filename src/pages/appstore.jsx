@@ -25,7 +25,7 @@ export default function AppStore() {
         <AppStoreCard
           title={"KPI Library"}
           image={"https://cdn.simplekpi.com/images/Resources/what-is-a-kpi.webp"}
-          paragraph={"KPI Library"}
+          paragraph={"Sektör ve Süreç bazlı performans göstergesi kütüphanesi KPI Library ile ortak kurumsal hafızadan faydalanın."}
           link={"docs/procetra/"}
         />
       </div>
