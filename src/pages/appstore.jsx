@@ -4,7 +4,7 @@ import AppStoreCard from './appstorecard';
 
 export default function AppStore() {
   return (
-    <Layout title="Hello" description="Hello React Page">
+    <Layout title="Çözümlerimiz" description="Hello React Page">
       <div style={{
         display: "flex",
         alignItems: "center",
