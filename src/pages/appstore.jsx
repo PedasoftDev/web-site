@@ -1,15 +1,12 @@
 import Layout from '@theme/Layout';
 import React from 'react';
 import AppStoreCard from './appstorecard';
+import styles from './styles.module.css';
 
 export default function AppStore() {
   return (
     <Layout title="Çözümlerimiz" description="Hello React Page">
-      <div style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center"
-      }}>
+      <div className={styles.appStoreLayout}>
         <AppStoreCard
           title={"Pedavalans"}
           image={"https://i.pinimg.com/originals/77/75/5e/77755e565ef7ddbff2546231cd8732bf.png"}

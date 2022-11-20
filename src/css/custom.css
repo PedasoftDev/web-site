@@ -136,13 +136,42 @@ html[data-theme='dark'] .header-gitlab-link:before {
     }
 }
 
-@media screen and (max-width: 1500px) and (min-width: 997px) {
+
+@media screen and (max-width: 745px) {
+    .navbar__brand {
+        display: none;
+    }
+
+    .get-started-button {
+        transition: all 0.3s ease 0s;
+        background: rgb(18, 83, 250);
+        border-color: rgb(18, 83, 250);
+        color: #fff;
+        padding: 5px 15px;
+        font-size: max(.8rem, 14px);
+        font-weight: 400;
+        min-height: 30px;
+        text-decoration: none;
+        font-family: Axiforma-btn, sans-serif;
+        line-height: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 28px;
+        border: 2px;
+        white-space: nowrap;
+        outline: none;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 997px) {
     .navbar__items {
         display: flex;
         flex-direction: column;
     }
+
     .navbar {
-        min-height: 180px;
+        min-height: 220px;
     }
 }
 
@@ -157,25 +186,29 @@ html[data-theme='dark'] .header-gitlab-link:before {
     padding: 10px 20px;
 }
 
-.get-started-button {
-    transition: all 0.3s ease 0s;
-    background: rgb(18, 83, 250);
-    border-color: rgb(18, 83, 250);
-    color: #fff;
-    padding: 10px 20px;
-    font-size: max(1rem, 16px);
-    font-weight: 400;
-    min-height: 40px;
-    text-decoration: none;
-    font-family: Axiforma-btn, sans-serif;
-    line-height: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    border-radius: 28px;
-    border: 2px;
-    white-space: nowrap;
-    outline: none;
+@media screen and (min-width: 746px) {
+
+    .get-started-button {
+        transition: all 0.3s ease 0s;
+        background: rgb(18, 83, 250);
+        border-color: rgb(18, 83, 250);
+        color: #fff;
+        padding: 10px 20px;
+        font-size: max(1rem, 16px);
+        font-weight: 400;
+        min-height: 40px;
+        text-decoration: none;
+        font-family: Axiforma-btn, sans-serif;
+        line-height: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        border-radius: 28px;
+        border: 2px;
+        white-space: nowrap;
+        outline: none;
+    }
+
 }
