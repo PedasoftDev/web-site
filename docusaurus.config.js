@@ -36,6 +36,11 @@ module.exports = {
                     position: 'left',
                     label: 'Dökümantasyon',
                 },
+                {
+                    to: 'blog',
+                    label: 'Blog',
+                    position: 'left'
+                },
                 /* {
                     type: 'docsVersionDropdown',
                     position: 'right',
@@ -43,11 +48,6 @@ module.exports = {
                 {
                     type: 'localeDropdown',
                     position: 'right',
-                },
-                {
-                    to: 'blog',
-                    label: 'Blog',
-                    position: 'left'
                 },
                 {
                     href: 'https://www.pedasoft.com.tr/peda360iletisim',
@@ -109,7 +109,7 @@ module.exports = {
           },*/
         colorMode: {
             defaultMode: 'dark',
-            disableSwitch: true,
+            disableSwitch: false,
             respectPrefersColorScheme: true,
         },
         /*   prism: {
