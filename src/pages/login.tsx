@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 export default function Login() {
    // window.location.replace('http://app.realmocean.com');
     return (
-      <Layout title="Hello" description="Hello React Page">
+      <Layout title="Çözümlerimiz" description="Hello React Page">
         <div
           style={{
             display: 'flex',

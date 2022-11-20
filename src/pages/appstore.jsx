@@ -1,15 +1,12 @@
 import Layout from '@theme/Layout';
 import React from 'react';
 import AppStoreCard from './appstorecard';
+import styles from './styles.module.css';
 
 export default function AppStore() {
   return (
-    <Layout title="Hello" description="Hello React Page">
-      <div style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center"
-      }}>
+    <Layout title="Çözümlerimiz" description="Hello React Page">
+      <div className={styles.appStoreLayout}>
         <AppStoreCard
           title={"Pedavalans"}
           image={"https://i.pinimg.com/originals/77/75/5e/77755e565ef7ddbff2546231cd8732bf.png"}
@@ -25,7 +22,7 @@ export default function AppStore() {
         <AppStoreCard
           title={"KPI Library"}
           image={"https://cdn.simplekpi.com/images/Resources/what-is-a-kpi.webp"}
-          paragraph={"KPI Library"}
+          paragraph={"Sektör ve Süreç bazlı performans göstergesi kütüphanesi KPI Library ile ortak kurumsal hafızadan faydalanın."}
           link={"docs/procetra/"}
         />
       </div>
