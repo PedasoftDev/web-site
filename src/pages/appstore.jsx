@@ -23,7 +23,7 @@ export default function AppStore() {
           title={"KPI Library"}
           image={"https://cdn.simplekpi.com/images/Resources/what-is-a-kpi.webp"}
           paragraph={"Sektör ve Süreç bazlı performans göstergesi kütüphanesi KPI Library ile ortak kurumsal hafızadan faydalanın."}
-          link={"docs/procetra/"}
+          link={"docs/kpilibrary/"}
         />
       </div>
 
