@@ -7,29 +7,44 @@ author_image_url: https://media-exp1.licdn.com/dms/image/C4D03AQFfDpqqLL8yrA/pro
 tags: [processmining,süreç madenciliği]
 ---
 
-
 # Süreç Madenciliği Nedir?
 
 Süreç Madenciliği ( **Process Mining**), Süreç Yönetimi ile Veri Madenciliği disiplinlerinin kesişim kümesinde yer alan; görece yeni bir teknolojidir. 
 Süreç Madenciliği ile bir organizasyonun iş süreçlerinde yer alan tüm veri analiz edilerek tabir-i caizse organizasyonun iş süreçlerinin DNA'sı ortaya konabilmektedir. Dahası mevcut durumu analiz ederek iyileştirme yolunda varsayımsal hareket etmek yerine somut ve veri odaklı aksiyonlar almamızı sağlar.
-![Süreç Madenciliği](../blogimages/mining.jpeg)
+![Süreç Madenciliği](../blogimages/mining.jpg)
 
-**Gartner** SuperApp'i şu şekilde ifade etmiş:
+**Peki Nasıl?**
 
- "**It is more than just a composite mobile app or web portal. Superapps are built as platforms to deliver modular mini-apps that users can activate for personalized app experiences.**"
- 
-Yani SuperApp'ler sıradan bir mobil uygulama ya da web sitesinden çok daha fazlası. Kendi içinde mini-app'ler barındırarak kullanıcıların ihtiyacı oldugunda mini-app'leri aktive ederek kullanabilmelerine ve ihtiyaçlarını hemen gidermelerini sağlıyor.
+Süreç Madenciliği çalışmalarının temel çıkış noktası, süreçlerle ilgili verilerin analiz edilerek iş süreçlerinin gerçekte nasıl yürütüldüğünün tespit edilmesidir.
 
-Hepimizin kullandığı **Getir** ve **Trendyol** gibi uygulamalar SuperApp konseptine en yakından verebileceğimiz uygulamalar olarak öne çıkmakta. Bu uygulamalar ilk başta bir konu özelinde hayatımıza girdikten sonra sonrasında farklı hizmetleri de bünyesinde sağlayarak aslında kullanıcıların olabildiğince tek bir platform üzerinde hizmet almasını sağladı.
+İş Süreçleri gerçek dünyada **ERP, CRM, EAM, MES, BPM** vb pek çok uygulamada yürütülmektedir. ( *İşe Alım, Avans, Masraf Talebi, Satınalma, Sözleşme Yönetimi, Üretim, Bakım,Depo,Stok,Sevkiyat* vb pek çok süreç)
 
-![Superapp](../blogimages/app02.jpeg)
+Bu süreçlerin kurgulandığı gibi yürütülüp yürütülmediğini ise süreç madenciliği yapmadan bilemeyiz. Dahası süreçlerde bir darboğaz olup olmadığını, sürecim hangi adımlarında bir kaynak iyileştirmesi gerekip gerekmediğini de süreç madenciliği olmadan bilemeyiz. Sadece varsayımsal olarak tahminlerde bulunabilir, ancak çıktılar hakkında nesnel bir sonuca ulaşmamız imkânsızdır.
 
-**Super App konsepti iş dünyasına, iş uygulamaları alanına nasıl uyarlanabilir peki?**
+## Süreç Madenciliği Adımları ##
 
-Farklı uzmanlıklar ve disiplinler için farklı iş uygulamaları hepimizin malumu... Aslında öyle olmak da zorunda. Zira bir konuda uzman olan bir iş uygulamasının ( ör: Muhasebe ), başka bir konuda (ör: Bakım Yönetimi) uzman olmasını beklemek çok da doğru değil. Ancak bu denli kompleks ihtiyaç ve beklenti gerektirmeyen fakat işletmelerde yoğunlukla kullanılan süreçler için SuperAPP benzeri platformlarda kullanıcıların hızlıca erişim sağlayabileceği mini-app'ler söz konusu olabilir. Kullanıcılar -genellikle- bulut mimarisi üzerinde çalışan bu SuperAPP'ler üzerinde o an ihtiyaç duydukları işlemleri gerçekleştirebilmeli; bunlar için farklı arayüzlere erişim sağlamadan tek bir platformda işini görebilmelidir.
+### 1.Süreç Keşfi (Process Discovrery)
 
-İş uygulamaları alanında gelecekte çok daha fazla ses getireceğini düşündüğüm Business-SuperAPP konsepti sayesinde;
+Süreç Madenciliği ile bu iş uygulamalarından alınan *Olay Kayıtları (Event Log)* analiz edilerek sürecin gerçekte nasıl olduğu, hangi adımlardan oluştuğu otomatik olarak modellenir. Aynı zamanda süreçteki **gerçekleşme-bekleme süreleri**, **darboğaz** olan süreç adımları, **kaynak-ekipman-süreç verimlilikleri** istatistiksel olarak tespit edilir.
 
-- Çok büyük yatırımlar ve proje maliyetleri gerektirmeden pek çok süreç dijitalleştirilebilecektir.
-- SAAS ve PAAS mimarileri sayesinde yazılım geliştirme ve devreye alma süreleri oldukça kısalacaktır.
-- İş verimliliği artacak, daha verimli ve efektif iş süreçleri dizayn edilebilecektir.
+![Süreç Madenciliği](../blogimages/pm1.png)
+
+### 2.Süreç Analizi (Process Statistics)
+
+Mevcut durumun tespit edilmesinden sonra yapılması gereken, daha yolun başındayken bu süreçler nasıl planlanmıştı? Eldeki süreç modelleri, madencilik çalışmasından elde edilen sonuçlarla uyuşuyor mu? Süreç kurallarını koyduğumuz gibi mi yürüyor yoksa istemediğimiz path (süreç varyantları) var mı? gibi sorulara yanıt aranır. 
+
+![Süreç Madenciliği](../blogimages/pm2.png)
+
+### 3.Uyum Kontrolü
+
+Uyum kontrolü sonrasında iyileştirilecek adımlar tespit edilmiştir, sürecin darboğaz yaratan noktaları belirlenmiş ve bu adımlar için gerekli önlemler alınmıştır. Süreç üzerinde artık nesnel verilerin ışığında iyileştirme çalışmalarına başlanabilir. 
+
+![Süreç Madenciliği](../blogimages/pm3.png)
+
+Süreç Yönetimi gibi tıpkı Süreç Madenciliği çalışmaları da süreklidir, yani süreçleri bir defa analiz edip darboğazların tespiti değil, iyileştirilen süreçlerin sürekli izlenerek ve analiz edilerek sürekli iyileştirilmesi hedeflenmelidir.
+
+**PEDA 360** platformundaki **Procetra** ile siz de süreçlerinizi iyileştirmeye hemen bugün başlayabilir, süreç mükemmelliğine doğru önemli bir adım atabilirsiniz.
+
+## BİZE ULAŞIN ##
+
+https://pedasoft.com.tr/peda360iletisim
