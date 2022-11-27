@@ -11,6 +11,7 @@ tags: [processmining,süreç madenciliği]
 
 Süreç Madenciliği ( **Process Mining**), Süreç Yönetimi ile Veri Madenciliği disiplinlerinin kesişim kümesinde yer alan; görece yeni bir teknolojidir. 
 Süreç Madenciliği ile bir organizasyonun iş süreçlerinde yer alan tüm veri analiz edilerek tabir-i caizse organizasyonun iş süreçlerinin DNA'sı ortaya konabilmektedir. Dahası mevcut durumu analiz ederek iyileştirme yolunda varsayımsal hareket etmek yerine somut ve veri odaklı aksiyonlar almamızı sağlar.
+
 ![Süreç Madenciliği](../blogimages/mining.jpg)
 
 **Peki Nasıl?**
@@ -26,13 +27,13 @@ Bu süreçlerin kurgulandığı gibi yürütülüp yürütülmediğini ise süre
 ### 1.Süreç Keşfi (Process Discovrery)
 
 Süreç Madenciliği ile bu iş uygulamalarından alınan *Olay Kayıtları (Event Log)* analiz edilerek sürecin gerçekte nasıl olduğu, hangi adımlardan oluştuğu otomatik olarak modellenir. Aynı zamanda süreçteki **gerçekleşme-bekleme süreleri**, **darboğaz** olan süreç adımları, **kaynak-ekipman-süreç verimlilikleri** istatistiksel olarak tespit edilir.
-![Süreç Madenciliği](../blogimages/pm1.png)
+
 ### 2.Süreç Analizi (Process Statistics)
 Mevcut durumun tespit edilmesinden sonra yapılması gereken, daha yolun başındayken bu süreçler nasıl planlanmıştı? Eldeki süreç modelleri, madencilik çalışmasından elde edilen sonuçlarla uyuşuyor mu? Süreç kurallarını koyduğumuz gibi mi yürüyor yoksa istemediğimiz path (süreç varyantları) var mı? gibi sorulara yanıt aranır. 
-![Süreç Madenciliği](../blogimages/pm2.png)
+
 ### 3.Uyum Kontrolü
 Uyum kontrolü sonrasında iyileştirilecek adımlar tespit edilmiştir, sürecin darboğaz yaratan noktaları belirlenmiş ve bu adımlar için gerekli önlemler alınmıştır. Süreç üzerinde artık nesnel verilerin ışığında iyileştirme çalışmalarına başlanabilir. 
-![Süreç Madenciliği](../blogimages/pm3.png)
+
 Süreç Yönetimi gibi tıpkı Süreç Madenciliği çalışmaları da süreklidir, yani süreçleri bir defa analiz edip darboğazların tespiti değil, iyileştirilen süreçlerin sürekli izlenerek ve analiz edilerek sürekli iyileştirilmesi hedeflenmelidir.
 
 **PEDA 360** platformundaki **Procetra** ile siz de süreçlerinizi iyileştirmeye hemen bugün başlayabilir, süreç mükemmelliğine doğru önemli bir adım atabilirsiniz.
