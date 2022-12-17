@@ -13,12 +13,12 @@ export default function AppStore() {
           paragraph={"Mavi - Beyaz Yakalı çalışanlarınızın polivalans tablolarını tek tıkla oluşturun ve yönetin!"}
           link={"docs/pedavalans/"}
         />
-        <AppStoreCard
+        {/* <AppStoreCard
           title={"Procetra"}
           image={"https://pedabilisim.com/wp-content/uploads/2021/07/1-j3dTgXjyaYPo9XkM6UMZ3g-600x366.png"}
           paragraph={"İş süreçlerinde yer alan olay kayıtlarını analiz ederek süreçlerinizi inceleyin"}
           link={"docs/procetra/"}
-        />
+        /> */}
         <AppStoreCard
           title={"KPI Library"}
           image={"https://cdn.simplekpi.com/images/Resources/what-is-a-kpi.webp"}
@@ -26,7 +26,6 @@ export default function AppStore() {
           link={"docs/kpilibrary/"}
         />
       </div>
-
     </Layout>
 
   );
