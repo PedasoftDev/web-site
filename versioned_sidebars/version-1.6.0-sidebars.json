@@ -44,16 +44,6 @@
                         
                     ]
                 },
-                {
-                    "type": "category",
-                    "label": "Procetra",
-                    "collapsed": true,
-                    "items": [
-                        "procetra/procetra"
-                       
-                        
-                    ]
-                },
                 "kpilibrary"
                
             ]

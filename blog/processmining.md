@@ -36,6 +36,6 @@ Uyum kontrolü sonrasında iyileştirilecek adımlar tespit edilmiştir, süreci
 
 Süreç Yönetimi gibi tıpkı Süreç Madenciliği çalışmaları da süreklidir, yani süreçleri bir defa analiz edip darboğazların tespiti değil, iyileştirilen süreçlerin sürekli izlenerek ve analiz edilerek sürekli iyileştirilmesi hedeflenmelidir.
 
-**PEDA 360** platformundaki **Procetra** ile siz de süreçlerinizi iyileştirmeye hemen bugün başlayabilir, süreç mükemmelliğine doğru önemli bir adım atabilirsiniz.
+
 ## BİZE ULAŞIN ##
 https://pedasoft.com.tr/peda360iletisim
