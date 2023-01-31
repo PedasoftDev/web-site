@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 
 export default function AppStore() {
   return (
-    <Layout title="Çözümlerimiz" description="Hello React Page">
+    <Layout title="Çözümlerimiz">
       <div className={styles.appStoreLayout}>
         <AppStoreCard
           title={"Pedavalans"}
@@ -21,6 +21,18 @@ export default function AppStore() {
         /> */}
         <AppStoreCard
           title={"KPI Library"}
+          image={"https://cdn.simplekpi.com/images/Resources/what-is-a-kpi.webp"}
+          paragraph={"Sektör ve Süreç bazlı performans göstergesi kütüphanesi KPI Library ile ortak kurumsal hafızadan faydalanın."}
+          link={"docs/kpilibrary/"}
+        />
+        <AppStoreCard
+          title={"Process Library"}
+          image={"https://cdn.simplekpi.com/images/Resources/what-is-a-kpi.webp"}
+          paragraph={"Sektör ve Süreç bazlı performans göstergesi kütüphanesi KPI Library ile ortak kurumsal hafızadan faydalanın."}
+          link={"docs/kpilibrary/"}
+        />
+        <AppStoreCard
+          title={"Pedaboard"}
           image={"https://cdn.simplekpi.com/images/Resources/what-is-a-kpi.webp"}
           paragraph={"Sektör ve Süreç bazlı performans göstergesi kütüphanesi KPI Library ile ortak kurumsal hafızadan faydalanın."}
           link={"docs/kpilibrary/"}

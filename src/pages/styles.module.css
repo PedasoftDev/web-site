@@ -3,9 +3,9 @@
  * and scoped locally.
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
- .heroBanner {
+.heroBanner {
     padding: 4rem 0;
     text-align: center;
     position: relative;
@@ -289,7 +289,9 @@
 
 @media screen and (min-width: 1260px) {
     .appStoreLayout {
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
         align-items: center;
         justify-content: center;
     }
@@ -371,7 +373,7 @@
     border-radius: 10px;
 }
 
-.appStoreCardView:hover img{
+.appStoreCardView:hover img {
     opacity: 0;
     transition: 0.5s ease-in-out;
 }
