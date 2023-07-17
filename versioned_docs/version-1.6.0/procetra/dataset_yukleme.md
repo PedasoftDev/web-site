@@ -12,3 +12,7 @@ Ardından sol taraftaki menüde yer alan **New Process Space** butonu tıklayara
 ![Process Space](../images/p_processpace.png) Burada süreç alanınımıza bir isim verdikten sonra **Save** butonunu tıklayarak kaydederiz. Kaydettiğimiz süreç alanının üzerindeki + butonunu tıklayarak süreç alanındaki analizleri saklamak üzere yeni bir klasör ekleyeceğiz. 
 
 ![Process Space](../images/p_processpace_f1.png)
+
+Açılan pop-up'da klasörümüze bir isim vererek kaydediyoruz.
+
+![Process Space](../images/p_processpace_f2.png)
