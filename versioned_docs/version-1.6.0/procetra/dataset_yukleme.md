@@ -16,3 +16,11 @@ Ardından sol taraftaki menüde yer alan **New Process Space** butonu tıklayara
 Açılan pop-up'da klasörümüze bir isim vererek kaydediyoruz.
 
 ![Process Space](../images/p_processpace_f2.png)
+
+Şimdi sıra kaydettiğimiz klasörün içerisinde yeni bir **Applet** ekleyerek süreç verilerini yüklemekte. Bunun için klasörün üzerine fare imleci ile gelerek **More Applets** linkini tıklayalım.
+
+![Process Applet](../images/p_applet_1.png)
+
+Açılan **Applet** sayfasından **Process Mining**'e tıklayalım.
+
+![Process Applet](../images/p_applet_2.png)
