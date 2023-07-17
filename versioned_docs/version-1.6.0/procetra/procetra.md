@@ -8,58 +8,16 @@ sidebar_label: Procetra
 
 Procetra, iş süreçlerinde yer alan olay kayıtlarını (event log) analiz ederek süreçlerinizi derinlemesine analiz etmenizi sağlayan; süreçlerinizle ilgili önemli iç görüler sunan, kullanımı kolay ve tamamen web tabanlı bir uygulamadır.
 
-## Procetra Nasıl Kullanılır?
+# Procetra ile Neler Yapabilirsiniz?
 
-1. **Peda360** platformuna giriş yapıldıktan sonra sol alt köşede yer alan grid ikonu tıklanır. Açılan uygulama menüsünde **Procetra** ikonu seçilir. **Procetra** anasayfası boş bir şekilde açılacaktır.
+Procetra ile kurumsal iş uygulamalarınızdan elde ettiğiniz olay kayıtlarını uygulamaya yükleyerek süreçlerinizin gerçekte nasıl yürüdüğünü görebilir; süreç istatistiklerini analiz edebilir, süreç darboğazlarını tespit edebilir ve BPMN formatında süreç modellerinizi import ederek mevcut süreç modellerinizin gerçekteki akışlarla ne derece uyumlu olduğunu görebilirsiniz.
+
+# Procetra'ya Nasıl Giriş Yaparım=
+
+https://peda360.realmocean.app adresine giriş yapılır. Açılan sayfada kullanıcı adınızı ve şifrenizi girerek **Peda360** platformuna erişirsiniz.
+**Peda360** platformuna giriş yapıldıktan sonra sol alt köşede yer alan grid ikonu tıklanır. Açılan uygulama menüsünde **Procetra** ikonu seçilir. **Procetra** anasayfası boş bir şekilde açılacaktır.
 
 ![Procetra Giriş](../images/p_giris1.png)
 
 ![Proje Kayıt](../images/p_giris2.png)
 
-2. Sol taraftaki menü ağacğından
-
-3.Proje kaydedildikten sonra süreç verilerinin içeri yükleneceği **Process Overview** sayfası otomatik olarak görüntülenecektir. Burada süreç verileri hangi metotla içeri yüklenecekse o yöntem seçilir. Örneğin süreç verilerinin .csv formatında masasüstünde bulunduğu varsayılsın. Bu durumda **Upload Data** butonu tıklanır.
-![Upload Data](../images/p05.png)
-
-**Upload Data** butonu tıklanarak süreç olay kayıtlarının içeri yükleneceği ekran açılır. Burada **Drop File Here** yazan kutucuğa .csv dosyası sürükle bırak ile getirilebilir ya da **Browse Files** linki tıklanarak dosyanın masaüstünden seçilip yüklenmesi sağlanır.
-
-![Upload Data](../images/p06.png)
-
-Veriler içeri yüklendikten sonra süreç madenciliği kuralları gereği yüklenen .csv dosyasındaki verilerin Procetra'nın istediği alanlarla eşleştirilmiş olması gerekmektedir. Bu alanlar sırası ile;
-
-* Case Id ( Süreç Id)
-* Activity ( Faaliyet adı)
-* Resource ( Kaynak-Zorunlu Değil)
-* Start Timestamp ( Faaliyetin Başlangıç Tarihi)
-* End Timestamp (Faaliyetin Bitiş Tarihi)
-
-Veriler yüklendikten sonra ilgili sutunların üst kısmındaki kutucuklardan csv dosyasındaki başlığın **Procetra**'daki hangi alana denk geldiği belirtilir.
-
-![Upload Data](../images/p07.png)
-
-Tüm adımlar doğru gerçekleştirildiği takdirde herhangi bir hata bulunmuyorsa **Start Upload** butonu tıklanarak veriler **Procetra** veritabanına aktarılır ve analizler gerçekleştirilir.
-
-![Upload Data](../images/p08.png)
-
-## PROCESS OVERVIEW
-
-**Procetra** ile süreç verilerinizi içeri aktardıktan sonra proje ana sayfasında yer alan kutucuklardan **Process Overview** kutucuğuna tıklayarak süreçlerinizle ilgili bir bakışta kritik analizlere ulaşabilirsiniz.
-
-### Process Metrics
-
-Procetra ile süreçlerinize ait ortalama günlük gerçekleşen süreç sayısı, günde gerçekleşen ortalama faaliyet sayısı ve süreçlerin ortalama tamamlanma sürelerini görebilirsiniz.
-
-![Process Metrics](../images/p09.png)
-
-### Happy Paths
-
-Procetra ile Happy Path analizleri gerçekleştirebilirsiniz. **Happy Path** bir sürecin en verimli ve en az hata üreten akışını belirten bir kavramdır. Procetra mevcut süreç kayıtlarınızı analiz ederek hangi akışın **Happy Path** olduğunu bulur ve analiz eder.
-
-![Upload Data](../images/p10.png)
-![Upload Data](../images/p11.png)
-
-### Frekans Dağılımı
-
-Procetra süreç kayıtlarınızı analiz ederek hangi faaliyetlerin ne sıklıkla gerçekleştiğini ve bunların sürecin genelinin ne kadarını oluşturduğunu oransal olarak gösterir.
-
-![Upload Data](../images/p12.png)
