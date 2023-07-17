@@ -21,6 +21,26 @@ Açılan pop-up'da klasörümüze bir isim vererek kaydediyoruz.
 
 ![Process Applet](../images/p_applet_1.png)
 
-Açılan **Applet** sayfasından **Process Mining**'e tıklayalım.
+Açılan **Applet** sayfasından **Process Mining**'in altındaki **Add** ikonuna tıklayalım.
 
 ![Process Applet](../images/p_applet_2.png)
+
+Karşımıza veri yükleme ekranı gelecektir. Bu ekran üzerinden bilgisayarımızda hazır mevcut olan .csv , .xlsx ya da .xes formatındaki verileri **Upload Data** butonunu tıklayarak içeri aktarabiliriz.
+
+![Process Applet](../images/p_import_1.png)
+
+**Upload Data** butonunu tıkladığımızda verileri bilgisayarımızdan seçmemizi sağlayan bir pop-up açılacaktır. Süreç verilerinin bulunduğu dosyayı seçtikten sonra **Next** tuşu ile sonraki adıma geçilir.
+
+![Process Applet](../images/p_import_2.png)
+
+Sonraki ekranda elimizde bulunan mevcut süreç datalarındaki bazı bilgilerin **Procetra**'ya tanıtılması gerekmektedir. Bunlar;
+
+1.**Case Id**
+2.**Activity**
+3.**Resource**
+4.**Start Timestamp**
+5.**End Timestamp**
+
+![Process Applet](../images/p_import_3.png)
+
+Excel dosyasındaki hangi sutun başlıklarının, **Procetra**'daki hangi alana dek geldiği bir kereye mahsus seçildikten sonra **Upload** butonu tıklanarak süreç verileri içeri aktarılmış olur.
