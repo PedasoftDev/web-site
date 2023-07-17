@@ -9,6 +9,6 @@ sidebar_label: Procetra'ya Dataset Yükleme
 **Peda360** platformuna giriş yapıldıktan sonra sol alt köşede yer alan grid ikonu tıklanır. Açılan uygulama menüsünde **Procetra** ikonu seçilir. **Procetra** anasayfası boş bir şekilde açılacaktır.![Procetra Giriş](../images/p_giris2.png)
 Ardından sol taraftaki menüde yer alan **New Process Space** butonu tıklayaran yeni süreç alanı yaratma pop-up'ı görüntülenir.
 
-![Process Space](../images/p_processpace.png) Burada süreç alanınımıza bir isim verdikten sonra **Create** butonunu tıklayarak kaydederiz.
+![Process Space](../images/p_processpace.png) Burada süreç alanınımıza bir isim verdikten sonra **Save** butonunu tıklayarak kaydederiz. Kaydettiğimiz süreç alanının üzerindeki + butonunu tıklayarak süreç alanındaki analizleri saklamak üzere yeni bir klasör ekleyeceğiz. 
 
-![Process Space](../images/p_processpace2.png)
+![Process Space](../images/p_processpace_f1.png)
