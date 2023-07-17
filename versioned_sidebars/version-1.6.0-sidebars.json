@@ -45,6 +45,23 @@
                         
                     ]
                 },
+
+                {
+                    "type": "category",
+                    "label": "Procetra Process Intelligence",
+                    "collapsed": true,
+                    "items": [
+                        "procetra/giris",
+                        "procetra/dataset_yukleme",
+                        "procetra/processspace",
+                        "procetra/processmaps",
+                        "procetra/processoverview",
+                        "procetra/processdetails",
+                        "procetra/bpmnview",
+                        "procetra/conformancecheck",
+                        
+                    ]
+                },
                 "kpilibrary"
                
             ]
