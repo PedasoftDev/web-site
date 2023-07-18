@@ -45,6 +45,16 @@
                         
                     ]
                 },
+
+                {
+                    "type": "category",
+                    "label": "Procetra Process Intelligence",
+                    "collapsed": true,
+                    "items": [
+                        "procetra/procetra",
+                        "procetra/dataset_yukleme"
+                    ]
+                },
                 "kpilibrary"
                
             ]
