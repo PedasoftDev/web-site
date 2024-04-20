@@ -17,6 +17,6 @@ Açılan sayfanın üst kısmında sırası ile hedef girişleri yapılacak poli
 
 ![Yetkinlik Hedef Değerlendirme](../images/yetkinlikhedefi2.png)
 
-Hedef değeri girilecek personel soldaki listeden seçildiği anda ekranın sağ tarafında otomatik olarak o personel ile ilişkili tüm yetkinliklerin listesi gelecektir. Yetkinliklerin hemen yan tarafındaki puanlı listeden yetkinliğin istenen hedef seviyesi seçilir. Tüm girişler tamamlandıktan sonra **Kaydet** butonu tıklandığında bu personel için hedef girişleri tamamlanmış olur.
+Hedef değeri girilecek personel soldaki listeden seçildiği anda ekranın sağ tarafında otomatik olarak o personel ile ilişkili tüm yetkinliklerin listesi gelecektir. Yetkinliklerin hemen yan tarafındaki puanlı listeden yetkinliğin istenen hedef seviyesi seçilir. Eğer ilgili personelin o yetkinlik için hedefi bulunmuyorsa, yani ilgili yetkinlikten mesul değilse "Hedefi Yok" seçeneği seçilir. Heder değer seçimleri yapıldığı anda sistem otomatik olarak girilen değerleri kaydetmiş olacaktır. 
 
 ![Yetkinlik Hedef Değerlendirme](../images/yetkinlikhedefi3.png)
