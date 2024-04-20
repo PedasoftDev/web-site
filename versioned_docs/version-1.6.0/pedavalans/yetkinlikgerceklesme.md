@@ -24,6 +24,6 @@ Eğer dönem sonucu ile ilgili bir açıklama girişi olacaksa **Aksiyonlar** ba
 
 ![Yetkinlik Açıklama Girişi](../images/degerlendirmeaciklamasi.png)
 
-Eğer yetkinlik gerçekleşme değeri girişi sonrasında bir açıklama girilmek istenirse mavi renkli **Açıklama** ikonuna tıklanır, açılan popup ekranda o döneme ait gerçekleşme değeri ile ilgili açıklama girişi yapılır ve **Kaydet** butonu tıklanarak açıklama kaydedilmiş olur.
+Açılan popup ekranda o döneme ait gerçekleşme değeri ile ilgili açıklama girişi yapılır ve **Kaydet** butonu tıklanarak açıklama kaydedilmiş olur.
 
 
