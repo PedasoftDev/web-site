@@ -1,18 +1,15 @@
 ---
 id: title
-title: Title Tanımlama
-sidebar_label: Title Tanımlama
+title: Unvan Tanımlama
+sidebar_label: Unvan Tanımlama
 ---
 
-# Title Tanımlama
+# Unvan Tanımlama
 
-Title tanımlama işlemi, **Organization Manager** da employee tanımlama işlemi öncesinde yapılması gereken ve personelin unvanlarının tanımlanmasına imkân tanıyan
-bir fonksiyondur. 
+Unvan tanımlama işlemi, Pedavalans içerisinde yetkinlik ölçümü ve takibi yapılacak çalışanların sisteme tanımlanmasından önce yapılmasu gereken bir işlemdir. Sol taraftaki menüde **Orgnizasyon Yapısı** butonu tıklandığında açılan sayfada **Unvanlar** sekmesine tıklanarak sistemde tanımlı tüm unvanlar görülebileceği gibi Yeni Unvan tanımlaması da yapılabilecektir.
 
-Title tanımlamak için **Organiztion Manager** uygulamasunda **Titles** menüsüne tıklanır. Açılan sayfada sistemde tanımlı unvan kayıtları görülecektir.
+![Title Tanımlama](../images/unvan01.png)
 
-![Title Tanımlama](../images/e03.png)
+Yeni unvan tanımlı eklemek için **Yeni Unvan** butonı tıklanır. Açılan sayfada unvana verilecek sıra numarası ile Unvan tanımı girilir. **Kaydet** butonu tıklanarak unvan tanımı kaydedilmiş olur.
 
-Yeni unvan tanımlı eklemek için **New Title** butonı tıklanır. Açılan sayfada unvana verilecek sıra numarası ile Unvan tanımı girilir. **Create Title** butonu tıklanarak unvan tanımı kaydedilmiş olur.
-
-![Title Tanımlama](../images/e04.png)
+![Title Tanımlama](../images/unvan02.png)
