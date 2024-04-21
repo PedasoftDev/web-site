@@ -1,23 +1,26 @@
 ---
 id: employee
-title: Employee Tanımlama
-sidebar_label: Employee Tanımlama
+title: Personel Tanımlama
+sidebar_label: Personel Tanımlama
 ---
 
-**"Employee"**, **Peda360** içerisindeki uygulamalarda personel seçimlerinde kullanılacak firma çalışanlarıdır. Employee'ler Accountlardan farklı olup, uygulamalardaki personel bazlı fonksiyonların gerçekleştirilmesinde kullanılırlar. 
+**Pedavalans**, içerisinde birim polivalans tablolarında tanımlanacak ve yetkinliklerin otomatik olarak atanacağı; yetkinlik durum izlemelerinin ve raporlarının gerçekleştirileceği çalışanlar Personel tablosuna kayıt edilmelidir. Personel tablosuna manuel olarak kayıt eklemek için sırasıyla aşağıdaki adımlar izlenir:
 
-Employee Tanımlamak için Organization Manager uygulaması içinde **Employee** menüsü tıklanır. 
+**Organizasyon Yapısı** menüsü içerisine gelinerek **Personeller** sekmesi görüntülenir.
 
-![Employee Tanımlama](../images/e02.png)
+![Employee Tanımlama](../images/calisan01.png)
 
-**New Employee** butonu tıklanır. Açılan sayfada aşağıdaki bilgiler girilerek kaydedilir:
+**Yeni Personel** butonu tıklanır. Açılan sayfada aşağıdaki bilgiler girilerek kaydedilir:
 
-- Employee Record ID: Personel sicil numarası.
-- Enter Employee First Name: Personelin adı.
-- Enter Employee Last Name: Personelin soyadı.
-- Please Select Employee Title: Personel ünvan tanımı seçimi.
-- Please Select Employee Department: Personel departman tanımı seçimi.
+- Sicil No: Personel sicil numarası. Tekil (Unique) olmalıdır. Manuel olarak girilir.
+- İsim: Personelin adı. Manuel olarak girilir.
+- Soyisim: Personelin soyadı. Manuel olarak girilir.
+- Unvanı: Unvan listesinden seçim yapılır.
+- Bulunduğu Pozisyon: Pozisyon listesinden seçim yapılır.
+- Bulunduğu Departman: Departman listesinden seçim yapılır.
+- Bulunduğu Hat: Eğer hat bazlı organizasyon yapısı aktifse ilgili hat seçilir.
+- Amir: Çalışanın üst amiri, personel listesinden seçilir.
 
-![Employee Tanımlama](../images/e01.png)
+![Employee Tanımlama](../images/calisan02.png)
 
-**Create Employee** butonu tıklanarak Employee Tanımı kaydedilmiş olur.
+**Kaydet** butonu tıklanarak Personel tanımı kaydedilmiş olur.
