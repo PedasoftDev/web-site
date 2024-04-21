@@ -4,6 +4,8 @@ title: Personel Tanımlama
 sidebar_label: Personel Tanımlama
 ---
 
+# Personel Tanımlama
+
 **Pedavalans**, içerisinde birim polivalans tablolarında tanımlanacak ve yetkinliklerin otomatik olarak atanacağı; yetkinlik durum izlemelerinin ve raporlarının gerçekleştirileceği çalışanlar Personel tablosuna kayıt edilmelidir. Personel tablosuna manuel olarak kayıt eklemek için sırasıyla aşağıdaki adımlar izlenir:
 
 **Organizasyon Yapısı** menüsü içerisine gelinerek **Personeller** sekmesi görüntülenir.
