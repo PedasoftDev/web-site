@@ -3,6 +3,7 @@ import React from 'react';
 import AppStoreCard from './appstorecard';
 import styles from './styles.module.css';
 
+
 export default function AppStore() {
   return (
     <Layout title="Çözümlerimiz">
